@@ -30,3 +30,7 @@ Screen
 
 
 ### Wsl Kali
+
+Screen
+
+<img src="assets/img/kali_screen.png">
