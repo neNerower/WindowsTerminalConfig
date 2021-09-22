@@ -21,4 +21,4 @@ xcopy settings.json %settings_path%
 echo Config successfully loaded !
 echo Done !
 
-@echo on
+pause
