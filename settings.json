@@ -56,7 +56,7 @@
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\",
                 "icon": "ms-appdata:///roaming/icons/ubuntu.ico",
-                "backgroundImage": "ms-appdata:///roaming/wallpapers/ubuntu_dark.jpg"
+                "backgroundImage": "ms-appdata:///roaming/wallpapers/ubuntu_wall.jpg"
             },
             {
                 // Make changes here to the Kali-Wsl profile.
@@ -65,7 +65,7 @@
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\",
                 "icon": "ms-appdata:///roaming/icons/kali.ico",
-                "backgroundImage": "ms-appdata:///roaming/wallpapers/kali_eye.jpg"
+                "backgroundImage": "ms-appdata:///roaming/wallpapers/kali_wall.jpg"
             }
         ]
     },
