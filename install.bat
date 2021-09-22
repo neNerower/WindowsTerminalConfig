@@ -3,20 +3,23 @@
 echo Start installing Windows Terminal Config...
 
 @REM SET PATH VALUES
-set path = %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe
-set settings_path = %path%\LocalState
-set assets_path = %path%\RoamingState
+set settings_path=%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+set assets_path=%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
 
-echo Ready !
+echo _
+echo %settings_path%
+echo %assets_path%
+echo _
+
+echo Ready!
 
 @REM COPY ASSETS INFO
-xcopy /s assets/icons %assets_path%
-xcopy /s assets/wallpapers %assets_path%
+xcopy assets\ %assets_path% /e /i
 
 echo Assets successfully loaded !
 
 @REM COPY SETTINGS CONFIG
-xcopy settings.json %settings_path%
+xcopy settings.json %settings_path% /y
 
 echo Config successfully loaded !
 echo Done !
