@@ -20,11 +20,8 @@
             // Put settings here that you want to apply to all profiles.
             "fontSize": 11,
             "fontFace": "Consolas",
-            "unfocusedAppearance": 
-            {
-                "backgroundImageOpacity": 0.2
-            },
-            "backgroundImageOpacity": 0.4
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8
         },
         "list":
         [
@@ -40,8 +37,7 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "Command Prompt",
                 "commandline": "cmd.exe",
-                "hidden": false,
-                "useAcrylic": true
+                "hidden": false
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -55,8 +51,8 @@
                 "name": "Ubuntu-20.04",
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\",
-                "icon": "ms-appdata:///roaming/icons/ubuntu.ico",
-                "backgroundImage": "ms-appdata:///roaming/wallpapers/ubuntu_wall.jpg"
+                "icon": "ms-appdata:///roaming/icons/ubuntu.ico"
+                // "backgroundImage": "ms-appdata:///roaming/wallpapers/ubuntu_wall.jpg"
             },
             {
                 // Make changes here to the Kali-Wsl profile.
@@ -64,8 +60,8 @@
                 "name": "Kali",
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\",
-                "icon": "ms-appdata:///roaming/icons/kali.ico",
-                "backgroundImage": "ms-appdata:///roaming/wallpapers/kali_wall.jpg"
+                "icon": "ms-appdata:///roaming/icons/kali.ico"
+                // "backgroundImage": "ms-appdata:///roaming/wallpapers/kali_wall.jpg"
             }
         ]
     },
