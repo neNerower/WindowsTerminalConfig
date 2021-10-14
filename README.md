@@ -17,20 +17,14 @@ This is a custom Windows Terminal settings.
 ### Comand Prompt
 + **acrylic** `true`
 
-Screen
-
 <img src="assets/img/cmd_screen.png">
 
 ---
 ### Wsl Ubuntu 20.04
 
-Screen
-
 <img src="assets/img/ubuntu_screen.png">
 
-
+---
 ### Wsl Kali
-
-Screen
 
 <img src="assets/img/kali_screen.png">
