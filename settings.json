@@ -21,7 +21,8 @@
             "fontSize": 11,
             "fontFace": "Consolas",
             "useAcrylic": true,
-            "acrylicOpacity": 0.8
+            "acrylicOpacity": 0.9,
+            "bellStyle": "none"
         },
         "list":
         [
